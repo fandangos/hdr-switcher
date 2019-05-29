@@ -26,11 +26,14 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #pragma once
+#pragma comment(lib, "dxgi.lib")
+#pragma comment(lib, "d3d11.lib")
 #include <Windows.h>
 #include <DXGI.h>
 #include <D3D11.h>
 #include <list>
-
+#include <algorithm>
+#include <string>
 
 struct DeviceCreationParameters
 {
