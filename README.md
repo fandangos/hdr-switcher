@@ -4,6 +4,7 @@ Updated it to be able to compile with VisualStudio 2019.
 
 To compile it you need to:
 > Disable precompiled header, set to NO. 
+and
 > Add nvapi64.lib to your project. Go to Project propreties > Linker > input and write ;nvapi64.lib;
 
 
